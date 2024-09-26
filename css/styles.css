@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.star-icon {
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 50%;
+  padding: 0.5rem;
+  /* display: inline-block; */
+  width: 36px;
+  height: 36px;
+  margin-bottom: 1rem;
+  
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.ratings button {
+  background-color: hsl(213, 19%, 23%);
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: hsl(213, 19%, 69%);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ratings button:hover {
+  background-color: #ff8000;
+}
+
+.ratings button.selected {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.8rem;
+  color: hsl(213, 19%, 18%);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.feedback-summary {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 23%);
+    padding: 0.5rem 1rem;
+    width: 200px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}
+
+.feedback-description {
+  text-align: center;
+}
+
+.image-icon img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
