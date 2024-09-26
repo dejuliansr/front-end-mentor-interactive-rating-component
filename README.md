@@ -24,7 +24,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-tip-calculator-app](https://dejuliansr.github.io/front-end-mentor-tip-calculator-app)
+- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-interactive-rating-componenet](https://dejuliansr.github.io/front-end-mentor-interactive-rating-componenet)
 
 ## My process
 
