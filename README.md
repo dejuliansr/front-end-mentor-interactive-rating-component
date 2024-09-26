@@ -24,7 +24,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-interactive-rating-componenet](https://dejuliansr.github.io/front-end-mentor-interactive-rating-componenet)
+- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-interactive-rating-component](https://dejuliansr.github.io/front-end-mentor-interactive-rating-component)
 
 ## My process
 
